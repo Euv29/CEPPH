@@ -1,0 +1,143 @@
+*, ::after, ::before, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px;
+
+    background-color: #22223b;
+    color: white;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+header nav ul li a:hover {
+    color: #fdc26f;
+}
+
+#foto {
+    /*Foto da escola*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 92vh;
+    background: red;
+    background-size: cover;
+    background-position: center;
+    Background-attachment: fixed;
+}
+
+/*About Section*/
+.about_Sec {
+    display: flex;
+    margin: 0px 10vh;
+    height: 100vh;
+}
+
+.aboutTextArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutTextArea h2 {
+    margin-bottom: 5vh;
+}
+
+.aboutTextArea p {
+    text-align: justify;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 45px;
+    background-color: #2f2f69c2;
+    color: #ffffff;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: #2f2f69;
+    letter-spacing: 2px;
+}
+
+/*Course Section*/
+.course_Sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10vh 0;
+}
+
+.courseTextArea {
+    text-align: center;
+    width: 60%;
+}
+
+.courseTextArea h2 {
+    margin: 1vh 0;
+}
+
+.courseTextArea #courseDesc {
+    margin-bottom: 6vh;
+}
+
+.courseTextArea h3 {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+}
+
+.courseTextArea p {
+    margin-bottom: 2vh;
+}
+
+/*Message Section*/
+
+.messageForm {
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+}
+
+.messageForm input {
+    border-style: groove;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 2vh;
+
+}
+
+.messageForm input:last-child {
+    padding: 50px;
+}
+
+
